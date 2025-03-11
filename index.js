@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 // Endpoint: Recupera toda la lista de usuarios
-//Retorna StatusCode: 200 y la lista de usuariosdel sistema
+//Retorna StatusCode: 200 y la lista de usuarios del sistema.
 app.get("/api/usuarios", (req, res) => {
   res.status(200).json(usuarios);
 });
