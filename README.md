@@ -7,7 +7,7 @@
 
 ## Para correr el servidor
 
-'''
+~~~
 npm install
 node index.js
-'''
+~~~
