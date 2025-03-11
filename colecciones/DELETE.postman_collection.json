@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "1756a10c-e0fd-43a6-90a9-478a2dc618f2",
+		"name": "DELETE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38721253"
+	},
+	"item": [
+		{
+			"name": "Eliminar Usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Julian\",\r\n    \"edad\":58\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/usuarios/4"
+			},
+			"response": []
+		}
+	]
+}
